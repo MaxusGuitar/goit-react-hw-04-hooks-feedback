@@ -5,8 +5,8 @@ import style from "./style.module.css";
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div>
     <ul className={style.list}>
-      {options.map((option, index) => (
-        <li key={index}>
+      {options.map((option, id) => (
+        <li key={id}>
           <button onClick={() => onLeaveFeedback(option)}>{option}</button>
         </li>
       ))}
