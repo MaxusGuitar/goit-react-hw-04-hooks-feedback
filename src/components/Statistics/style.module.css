@@ -1,0 +1,13 @@
+.green__font .list__font .red__font .yellow__font {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.green__font {
+  color: green;
+}
+.red__font {
+  color: red;
+}
+.yellow__font {
+  color: rgb(238, 194, 0);
+}
