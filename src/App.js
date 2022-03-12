@@ -11,8 +11,8 @@ function App() {
   const [badValue, setBadValue] = useState(0);
   const [visible] = useState("false");
 
-  const onLeaveFeedback = (a) => {
-    switch (a) {
+  const onLeaveFeedback = (feedback) => {
+    switch (feedback) {
       case "good":
         setGoodValue(goodValue + 1, visible === "true");
         break;
